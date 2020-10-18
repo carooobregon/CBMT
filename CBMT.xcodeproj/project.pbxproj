@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		05FBB69D253CB5B500A5C846 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FBB69C253CB5B500A5C846 /* MenuViewController.swift */; };
+		0B136BC0253CFD3600654A19 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B136BBF253CFD3600654A19 /* GoogleService-Info.plist */; };
 		0F24D9C52534D3CD00890100 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F24D9C42534D3CD00890100 /* AppDelegate.swift */; };
 		0F24D9C72534D3CD00890100 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F24D9C62534D3CD00890100 /* SceneDelegate.swift */; };
 		0F24D9C92534D3CD00890100 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F24D9C82534D3CD00890100 /* ViewController.swift */; };
@@ -16,10 +17,12 @@
 		0F24D9D12534D3D000890100 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F24D9CF2534D3D000890100 /* LaunchScreen.storyboard */; };
 		0F33EAFE253CCA1E0076DFC5 /* IntroCalificacionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F33EAFD253CCA1E0076DFC5 /* IntroCalificacionesViewController.swift */; };
 		0F33EB00253CD1E60076DFC5 /* Alumno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F33EAFF253CD1E60076DFC5 /* Alumno.swift */; };
+		1DDABF375899C9CCCEA8713E /* Pods_CBMT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A247D959AA8F9C74D1266C3 /* Pods_CBMT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		05FBB69C253CB5B500A5C846 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		0B136BBF253CFD3600654A19 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0F24D9C12534D3CD00890100 /* CBMT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBMT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F24D9C42534D3CD00890100 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F24D9C62534D3CD00890100 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +33,9 @@
 		0F24D9D22534D3D000890100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F33EAFD253CCA1E0076DFC5 /* IntroCalificacionesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroCalificacionesViewController.swift; sourceTree = "<group>"; };
 		0F33EAFF253CD1E60076DFC5 /* Alumno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alumno.swift; sourceTree = "<group>"; };
+		19EC09313C355D3A1E2462F4 /* Pods-CBMT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBMT.release.xcconfig"; path = "Target Support Files/Pods-CBMT/Pods-CBMT.release.xcconfig"; sourceTree = "<group>"; };
+		3A247D959AA8F9C74D1266C3 /* Pods_CBMT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CBMT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		488337E8930B06B322AA7BFB /* Pods-CBMT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBMT.debug.xcconfig"; path = "Target Support Files/Pods-CBMT/Pods-CBMT.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DDABF375899C9CCCEA8713E /* Pods_CBMT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +55,8 @@
 			children = (
 				0F24D9C32534D3CD00890100 /* CBMT */,
 				0F24D9C22534D3CD00890100 /* Products */,
+				4307E244F710F48E65A9643D /* Pods */,
+				C03859E573611FCF577D49B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,8 +81,27 @@
 				0F24D9CD2534D3D000890100 /* Assets.xcassets */,
 				0F24D9CF2534D3D000890100 /* LaunchScreen.storyboard */,
 				0F24D9D22534D3D000890100 /* Info.plist */,
+				0B136BBF253CFD3600654A19 /* GoogleService-Info.plist */,
 			);
 			path = CBMT;
+			sourceTree = "<group>";
+		};
+		4307E244F710F48E65A9643D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				488337E8930B06B322AA7BFB /* Pods-CBMT.debug.xcconfig */,
+				19EC09313C355D3A1E2462F4 /* Pods-CBMT.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C03859E573611FCF577D49B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A247D959AA8F9C74D1266C3 /* Pods_CBMT.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +111,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F24D9D52534D3D000890100 /* Build configuration list for PBXNativeTarget "CBMT" */;
 			buildPhases = (
+				69A755EFEE5D1238E5CBE9CC /* [CP] Check Pods Manifest.lock */,
 				0F24D9BD2534D3CD00890100 /* Sources */,
 				0F24D9BE2534D3CD00890100 /* Frameworks */,
 				0F24D9BF2534D3CD00890100 /* Resources */,
+				480B515BFEFAD98D02E01D1F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,12 +165,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F24D9D12534D3D000890100 /* LaunchScreen.storyboard in Resources */,
+				0B136BC0253CFD3600654A19 /* GoogleService-Info.plist in Resources */,
 				0F24D9CE2534D3D000890100 /* Assets.xcassets in Resources */,
 				0F24D9CC2534D3CD00890100 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		480B515BFEFAD98D02E01D1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CBMT/Pods-CBMT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CBMT/Pods-CBMT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CBMT/Pods-CBMT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69A755EFEE5D1238E5CBE9CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CBMT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0F24D9BD2534D3CD00890100 /* Sources */ = {
@@ -297,6 +370,7 @@
 		};
 		0F24D9D62534D3D000890100 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 488337E8930B06B322AA7BFB /* Pods-CBMT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -315,6 +389,7 @@
 		};
 		0F24D9D72534D3D000890100 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19EC09313C355D3A1E2462F4 /* Pods-CBMT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
