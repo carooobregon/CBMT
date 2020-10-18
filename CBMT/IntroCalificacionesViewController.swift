@@ -24,6 +24,8 @@ class IntroCalificacionesViewController: UIViewController, UITableViewDataSource
         Alumno(nombre: "Lucia Cantu")
     ]
     
+    let cellColors = ["222B45","AC4040","FFC700", "11A05B", "FFB110"];
+    let colors = UIColor.systemRed
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -35,13 +37,47 @@ class IntroCalificacionesViewController: UIViewController, UITableViewDataSource
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let celda = tableView.dequeueReusableCell(withIdentifier: "celda")
-        return celda!
+        let celda = tableView.dequeueReusableCell(withIdentifier: "celda", for: indexPath) as! AlCalificacionesViewCell
+        if(listaAlumnos[indexPath.row].genero){
+            celda.imagen.image = UIImage(named: "girlpng")
+        }
+        celda.alNombre.text = listaAlumnos[indexPath.row].nombre
+        celda.alGrado.text = String(listaAlumnos[indexPath.row].grado) + "° de "  + listaAlumnos[indexPath.row].nivel
+        celda.alMaestra.text = listaAlumnos[indexPath.row].maestra
+        celda.contentView.backgroundColor = hexStringToUIColor(hex: cellColors[indexPath.row % cellColors.count])
+
+        return celda
     }
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 120.0
     }
+    
+    // MARK: Helper methods
+    
+    func hexStringToUIColor (hex:String) -> UIColor {
+        var cString:String = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
+
+        if (cString.hasPrefix("#")) {
+            cString.remove(at: cString.startIndex)
+        }
+
+        if ((cString.count) != 6) {
+            return UIColor.gray
+        }
+
+        var rgbValue:UInt64 = 0
+        Scanner(string: cString).scanHexInt64(&rgbValue)
+
+        return UIColor(
+            red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
+            green: CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0,
+            blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
+            alpha: CGFloat(1.0)
+        )
+    }
+
+    
     
     /*
     // MARK: - Navigation
