@@ -17,6 +17,7 @@
 		0F33EAFE253CCA1E0076DFC5 /* IntroCalificacionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F33EAFD253CCA1E0076DFC5 /* IntroCalificacionesViewController.swift */; };
 		0F33EB00253CD1E60076DFC5 /* Alumno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F33EAFF253CD1E60076DFC5 /* Alumno.swift */; };
 		0FAB74FE253D003400ADC9CA /* CalificacionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB74FD253D003400ADC9CA /* CalificacionesViewController.swift */; };
+		0FAB7500253D0BA300ADC9CA /* RoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB74FF253D0BA300ADC9CA /* RoundedImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		0F33EAFD253CCA1E0076DFC5 /* IntroCalificacionesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroCalificacionesViewController.swift; sourceTree = "<group>"; };
 		0F33EAFF253CD1E60076DFC5 /* Alumno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alumno.swift; sourceTree = "<group>"; };
 		0FAB74FD253D003400ADC9CA /* CalificacionesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalificacionesViewController.swift; sourceTree = "<group>"; };
+		0FAB74FF253D0BA300ADC9CA /* RoundedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				0F33EAFD253CCA1E0076DFC5 /* IntroCalificacionesViewController.swift */,
 				0F33EAFF253CD1E60076DFC5 /* Alumno.swift */,
 				0F24D9CA2534D3CD00890100 /* Main.storyboard */,
+				0FAB74FF253D0BA300ADC9CA /* RoundedImageView.swift */,
 				0FAB74FD253D003400ADC9CA /* CalificacionesViewController.swift */,
 				05FBB69C253CB5B500A5C846 /* MenuViewController.swift */,
 				0F24D9CD2534D3D000890100 /* Assets.xcassets */,
@@ -158,6 +161,7 @@
 				05FBB69D253CB5B500A5C846 /* MenuViewController.swift in Sources */,
 				0F24D9C92534D3CD00890100 /* ViewController.swift in Sources */,
 				0FAB74FE253D003400ADC9CA /* CalificacionesViewController.swift in Sources */,
+				0FAB7500253D0BA300ADC9CA /* RoundedImageView.swift in Sources */,
 				0F24D9C52534D3CD00890100 /* AppDelegate.swift in Sources */,
 				0F24D9C72534D3CD00890100 /* SceneDelegate.swift in Sources */,
 			);

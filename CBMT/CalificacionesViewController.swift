@@ -12,12 +12,10 @@ class CalificacionesViewController: UIViewController {
 
     @IBOutlet weak var promedioView: UIView!
     var currAlumno : Alumno?
+    @IBOutlet weak var promedioAlumno: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        promedioView.layer.cornerRadius = promedioView.frame.size.width/2
-        promedioView.clipsToBounds = true
-
         // Do any additional setup after loading the view.
     }
     
