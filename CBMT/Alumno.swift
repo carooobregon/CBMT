@@ -18,11 +18,10 @@ class Alumno: NSObject {
     
     init(nombre: String){
         self.nombre = nombre
-        self.grado = 10
+        self.grado = 3
         self.nivel = "Primaria"
         self.maestra = "Yolanda Martinez"
         self.genero = true
     }
-    //hola
-    
+
 }
