@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import FirebaseDatabase
 
 class ViewController: UIViewController {
 
+    private let database = Database.database().reference()
+    
     @IBOutlet weak var tfUser: UITextField!
     @IBOutlet weak var tfPassword: UITextField!
     
