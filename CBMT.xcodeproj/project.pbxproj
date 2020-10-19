@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		05FBB69D253CB5B500A5C846 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FBB69C253CB5B500A5C846 /* MenuViewController.swift */; };
 		0B136BC0253CFD3600654A19 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B136BBF253CFD3600654A19 /* GoogleService-Info.plist */; };
+		0BE2A5E0253D5E93003D6127 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 0BE2A5DF253D5E93003D6127 /* data */; };
 		0F24D9C52534D3CD00890100 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F24D9C42534D3CD00890100 /* AppDelegate.swift */; };
 		0F24D9C72534D3CD00890100 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F24D9C62534D3CD00890100 /* SceneDelegate.swift */; };
 		0F24D9C92534D3CD00890100 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F24D9C82534D3CD00890100 /* ViewController.swift */; };
@@ -16,7 +17,6 @@
 		0F24D9CE2534D3D000890100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F24D9CD2534D3D000890100 /* Assets.xcassets */; };
 		0F24D9D12534D3D000890100 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F24D9CF2534D3D000890100 /* LaunchScreen.storyboard */; };
 		0F33EAFE253CCA1E0076DFC5 /* IntroCalificacionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F33EAFD253CCA1E0076DFC5 /* IntroCalificacionesViewController.swift */; };
-		0F33EB00253CD1E60076DFC5 /* Alumno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F33EAFF253CD1E60076DFC5 /* Alumno.swift */; };
 		0FAB74FE253D003400ADC9CA /* CalificacionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB74FD253D003400ADC9CA /* CalificacionesViewController.swift */; };
 		0FAB7500253D0BA300ADC9CA /* RoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB74FF253D0BA300ADC9CA /* RoundedImageView.swift */; };
 		1DDABF375899C9CCCEA8713E /* Pods_CBMT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A247D959AA8F9C74D1266C3 /* Pods_CBMT.framework */; };
@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		05FBB69C253CB5B500A5C846 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		0B136BBF253CFD3600654A19 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0BE2A5DF253D5E93003D6127 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = data; sourceTree = "<group>"; };
 		0F24D9C12534D3CD00890100 /* CBMT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBMT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F24D9C42534D3CD00890100 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F24D9C62534D3CD00890100 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,7 +35,6 @@
 		0F24D9D02534D3D000890100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F24D9D22534D3D000890100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F33EAFD253CCA1E0076DFC5 /* IntroCalificacionesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroCalificacionesViewController.swift; sourceTree = "<group>"; };
-		0F33EAFF253CD1E60076DFC5 /* Alumno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alumno.swift; sourceTree = "<group>"; };
 		0FAB74FD253D003400ADC9CA /* CalificacionesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalificacionesViewController.swift; sourceTree = "<group>"; };
 		0FAB74FF253D0BA300ADC9CA /* RoundedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImageView.swift; sourceTree = "<group>"; };
 		19EC09313C355D3A1E2462F4 /* Pods-CBMT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBMT.release.xcconfig"; path = "Target Support Files/Pods-CBMT/Pods-CBMT.release.xcconfig"; sourceTree = "<group>"; };
@@ -75,11 +75,11 @@
 		0F24D9C32534D3CD00890100 /* CBMT */ = {
 			isa = PBXGroup;
 			children = (
+				0BE2A5DF253D5E93003D6127 /* data */,
 				0F24D9C42534D3CD00890100 /* AppDelegate.swift */,
 				0F24D9C62534D3CD00890100 /* SceneDelegate.swift */,
 				0F24D9C82534D3CD00890100 /* ViewController.swift */,
 				0F33EAFD253CCA1E0076DFC5 /* IntroCalificacionesViewController.swift */,
-				0F33EAFF253CD1E60076DFC5 /* Alumno.swift */,
 				0F24D9CA2534D3CD00890100 /* Main.storyboard */,
 				0FAB74FF253D0BA300ADC9CA /* RoundedImageView.swift */,
 				0FAB74FD253D003400ADC9CA /* CalificacionesViewController.swift */,
@@ -98,7 +98,6 @@
 				488337E8930B06B322AA7BFB /* Pods-CBMT.debug.xcconfig */,
 				19EC09313C355D3A1E2462F4 /* Pods-CBMT.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -174,6 +173,7 @@
 				0B136BC0253CFD3600654A19 /* GoogleService-Info.plist in Resources */,
 				0F24D9CE2534D3D000890100 /* Assets.xcassets in Resources */,
 				0F24D9CC2534D3CD00890100 /* Main.storyboard in Resources */,
+				0BE2A5E0253D5E93003D6127 /* data in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +227,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F33EAFE253CCA1E0076DFC5 /* IntroCalificacionesViewController.swift in Sources */,
-				0F33EB00253CD1E60076DFC5 /* Alumno.swift in Sources */,
 				0F24D9C92534D3CD00890100 /* ViewController.swift in Sources */,
 				0F24D9C52534D3CD00890100 /* AppDelegate.swift in Sources */,
 				0F24D9C72534D3CD00890100 /* SceneDelegate.swift in Sources */,
