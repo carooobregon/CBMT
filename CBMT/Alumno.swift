@@ -23,5 +23,4 @@ class Alumno: NSObject {
         self.maestra = "Yolanda Martinez"
         self.genero = true
     }
-    //gaba
 }
