@@ -20,6 +20,7 @@
 		0FAB74FE253D003400ADC9CA /* CalificacionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB74FD253D003400ADC9CA /* CalificacionesViewController.swift */; };
 		0FAB7500253D0BA300ADC9CA /* RoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB74FF253D0BA300ADC9CA /* RoundedImageView.swift */; };
 		1DDABF375899C9CCCEA8713E /* Pods_CBMT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A247D959AA8F9C74D1266C3 /* Pods_CBMT.framework */; };
+		0FAB7502253D353800ADC9CA /* Calificacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB7501253D353800ADC9CA /* Calificacion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		19EC09313C355D3A1E2462F4 /* Pods-CBMT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBMT.release.xcconfig"; path = "Target Support Files/Pods-CBMT/Pods-CBMT.release.xcconfig"; sourceTree = "<group>"; };
 		3A247D959AA8F9C74D1266C3 /* Pods_CBMT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CBMT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		488337E8930B06B322AA7BFB /* Pods-CBMT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBMT.debug.xcconfig"; path = "Target Support Files/Pods-CBMT/Pods-CBMT.debug.xcconfig"; sourceTree = "<group>"; };
+		0FAB7501253D353800ADC9CA /* Calificacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calificacion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				0F33EAFD253CCA1E0076DFC5 /* IntroCalificacionesViewController.swift */,
 				0F33EAFF253CD1E60076DFC5 /* Alumno.swift */,
 				0F24D9CA2534D3CD00890100 /* Main.storyboard */,
+				0FAB7501253D353800ADC9CA /* Calificacion.swift */,
 				0FAB74FF253D0BA300ADC9CA /* RoundedImageView.swift */,
 				0FAB74FD253D003400ADC9CA /* CalificacionesViewController.swift */,
 				05FBB69C253CB5B500A5C846 /* MenuViewController.swift */,
@@ -236,6 +239,7 @@
 				0FAB74FE253D003400ADC9CA /* CalificacionesViewController.swift in Sources */,
 				0FAB7500253D0BA300ADC9CA /* RoundedImageView.swift in Sources */,
 				0F24D9C52534D3CD00890100 /* AppDelegate.swift in Sources */,
+				0FAB7502253D353800ADC9CA /* Calificacion.swift in Sources */,
 				0F24D9C72534D3CD00890100 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
